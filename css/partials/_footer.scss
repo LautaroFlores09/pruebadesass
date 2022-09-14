@@ -1,0 +1,81 @@
+.footer{
+      display: flex;
+      justify-content: space-around;
+      background-color: black;
+      max-width: 100%;
+      padding: 90px 0 50px 30px;
+      border-bottom: 2px solid rgb(132, 0, 205);
+      font-family:Rotunda ;
+      font-style: light;
+      color:#8400cd ; 
+      box-shadow:rgba(132, 0, 205, 0.4) 0px 50px 200px -18px inset;
+      
+      .footer__footerperifericwar{
+            margin-left: 100px;
+
+            .footer__footerperifericwar-titulo{
+                  color:$color3;
+                  font-family: $fontdraco;
+                  font-size: 9px;
+                  margin-bottom: 30px;
+              }
+      
+            .footer__footerperifericwar-lista{
+                  padding: 0;
+
+                  .footer__footerperifericwar-lista-item{
+                        font-family:$fontrotunda;
+                        font: light;
+                        margin: 20px 20px 0px 0px;
+
+                        a{
+                              text-decoration: none;
+                              color:$color1;
+                        }
+                  }
+            
+            }
+            .footer__footerperifericwar-copy{
+                  font-size: 13px;
+                  margin-top:100px ;
+            }
+      }
+      .footer__cys{
+            display: flex;
+            flex-direction: column;
+
+            .footer__cys-titulo{
+                  color: $color3;
+                  font-family: $fontdraco;
+                  font-size: 9px;
+                  margin-bottom: 30px; 
+            }
+            .footer__cys-telefono,
+            .footer__cys-contacto,
+            .footer__cys-nosotros{
+                  display: flex;
+                  align-items: center;
+                  margin-bottom: 15px;
+            }
+                  .footer__cys-contacto-titulo,
+                  .footer__cys-nosotros-titulo,
+                  .footer__cys-telefono-numero{
+                  font-size: 16px;
+                  margin: 0px 0 0 5px;
+                  }      
+      }
+
+      .footer__seguinos{
+            padding: 0px 0 50px 30px;
+            margin-right: 150px;
+
+                  .footer__seguinos-titulo{
+                        color:$color3;
+                        font-family:$fontdraco;
+                        font-size: 9px;
+                        margin-bottom: 30px; 
+                  }
+                  
+      }
+}
+
